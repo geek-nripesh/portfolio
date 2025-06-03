@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nripesh Kumar | Contact</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- FontAwesome CDN -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      background: linear-gradient(135deg, #0d121a, #004d40);
+      color: #e0f7fa;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+    nav {
+      width: 100%;
+      max-width: 900px;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+    nav a {
+      color: #00ffc3;
+      font-weight: 600;
+      font-size: 1.1rem;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 4px;
+      text-decoration: none;
+      transition: border-color 0.3s;
+    }
+    nav a:hover {
+      border-color: #1de9b6;
+    }
+    nav a[aria-current="page"] {
+      border-color: #1de9b6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #00ffc3;
+      margin-bottom: 0.2rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #b2dfdb;
+    }
+    .contact-card {
+      background: #263238;
+      padding: 2rem 2.5rem;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0, 255, 195, 0.4);
+      max-width: 450px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      font-size: 1.1rem;
+      color: #80cbc4;
+    }
+    .contact-item i {
+      font-size: 1.5rem;
+      color: #00ffc3;
+      min-width: 25px;
+      text-align: center;
+    }
+    .contact-link {
+      color: #b2dfdb;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .contact-link:hover {
+      color: #1de9b6;
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: auto;
+      text-align: center;
+      color: #004d40aa;
+      font-size: 0.9rem;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+    <a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
+    <a href="experience.html"><i class="fas fa-briefcase"></i> Experience</a>
+    <a href="contact.html" aria-current="page"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+
+  <header>
+    <h1><i class="fas fa-address-book"></i> Contact Me</h1>
+    <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+  </header>
+
+  <section class="contact-card">
+    <div class="contact-item">
+      <i class="fas fa-envelope"></i>
+      <a class="contact-link" href="mailto:kumarnripesh@gmail.com">kumarnripesh@gmail.com</a>
+    </div>
+    <div class="contact-item">
+      <i class="fas fa-phone"></i>
+      <a class="contact-link" href="tel:+91 9123280845">+91 9123280845</a>
+    </div>
+    <div class="contact-item">
+      <i class="fab fa-linkedin"></i>
+      <a
+        class="contact-link"
+        href="https://www.linkedin.com/in/kumarnripesh/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >linkedin.com/in/kumarnripesh</a
+      >
+    </div>
+    <div class="contact-item">
+      <i class="fab fa-github"></i>
+      <a
+        class="contact-link"
+        href="https://github.com/geek-nripesh"
+        target="_blank"
+        rel="noopener noreferrer"
+        >github.com/geek-nripesh</a
+      >
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Nripesh Kumar. Built with <span style="color:#00ffc3;">&#9829;</span> using HTML &amp; CSS.
+  </footer>
+
+</body>
+</html>
