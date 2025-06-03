@@ -37,11 +37,11 @@ This portfolio highlights projects focused on Data Science, Machine Learning, Ar
 ## How to View
 
 You can view the portfolio live at:  
-[Your GitHub Pages or hosting URL]
+https://geek-nripesh.github.io/portfolio/
 
 Or clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/geek-nripesh/portfolio.git
 cd portfolio
 open index.html
